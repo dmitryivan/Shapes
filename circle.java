@@ -30,7 +30,7 @@ public double calcPerimeter() {
 }
 @Override
 public double calcArea() {
-	return  Math.PI * (center.calcDistance(radius) / 2) * (center.calcDistance(radius) / 2) ;
+	return  Math.PI * (center.calcDistance(radius) ) * (center.calcDistance(radius) ) ;
 }
 
 }
